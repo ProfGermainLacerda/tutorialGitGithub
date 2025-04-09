@@ -18,8 +18,15 @@ vai servir para remover um arquivo da stage
 git push - "empurra" algo da branch local para a remota
 
 -criação de repositorio remoto via command prompt
-git auth login
+
 git repo create nome-do-repo --privacidade
 --public --private
 
-asdasd
+-criação de repo remoto via github
+para sincronizar:
+git remote add origin [link do repositorio]
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+-Como fazer uma copia de um repositorio remoto para o local
+git clone [link do repo remoto]
