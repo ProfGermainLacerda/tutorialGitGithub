@@ -1,0 +1,25 @@
+primeira vez de todas em um git
+git config --global user.email "seuEmail"
+
+git config --global user.name "seuNome"
+
+
+git init - repositorio local
+
+git status - te informa a branch, te informa os arquivos modificados e te informa se voce ta a frente ou pra tras do repositorio.
+
+git add <nome-do-arquivo> ou .
+nome do arquivo - so aquele arquivo vai para a stage
+. - todos os arquivos modificados vao pra stage
+
+git rm --cached <nome do arquivo> ou .
+vai servir para remover um arquivo da stage
+
+git push - "empurra" algo da branch local para a remota
+
+-criação de repositorio remoto via command prompt
+git auth login
+git repo create nome-do-repo --privacidade
+--public --private
+
+asdasd
