@@ -30,3 +30,12 @@ git push -u origin main
 
 -Como fazer uma copia de um repositorio remoto para o local
 git clone [link do repo remoto]
+
+-como atualizar o repositorio local, com as mudancas do repo remoto
+
+git pull
+
+-Caso aja conflito
+git merge
+
+-se não resolver, baixar extensao gitlens no vscode e abrir o arquivo com os conflitos nele
